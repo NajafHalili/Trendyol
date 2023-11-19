@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    }
+    
+    body{
+        height: 8000px;
+    
+    }
+    
+    header {
+        width: 100%;
+        height: 110px;
+        background-color: #faebd7;
+        position: flex;
+    }
+    header img{
+       width: 210px;
+        height: 100%;
+      margin: 5px;
+      cursor: pointer;
+      position: relative;
+      
+    }
+    
+    .box input { 
+        width: 700px;
+        height: 45px;
+        border: 1px solid #faebd7 ;
+        border-radius: 10px;
+        padding: 10px 40px 10px 15px;
+        outline: none;
+        cursor: pointer;
+       position: absolute;
+       top: 32px;
+       left: 300px;
+    }
+    
+    .icon i {
+        position: absolute;
+        top: 44px;
+        left: 970px;
+        color: orangered;
+        font-size: 20px;
+        cursor: pointer;
+     
+    }
+    .icon2 i {
+        position: absolute;
+        top: 44px;
+        left: 1050px;
+        color: black;
+        font-size: 15px;
+        cursor: pointer;
+     
+    }
+    .icon3 i {
+        position: absolute;
+        top: 44px;
+        left: 1190px;
+        color: black;
+        font-size: 15px;
+        cursor: pointer;
+     
+    }
+    .icon4 i {
+        position: absolute;
+        top: 44px;
+        left: 1350px;
+        color: black;
+        font-size: 15px;
+        cursor: pointer;
+     
+    }
+    
+    .cursor {
+        display: flex;
+        height: 85px;
+        width: 100%;
+        height: 25px;
+        background-color: antiquewhite;
+        position: flex;
+        border-bottom: black;
+    }
+    
+    
+    
+    
+    
+    .cursor ul{
+        display: flex;
+    }
+    
+    .cursor ul li {
+        margin-left: 15px;
+    }
+    
+    .cursor ul a{
+        color: rgb(11, 11, 10);
+        font-size: 18px;
+        font-weight: 300px;
+        padding: 24px 24px 24px 24px;
+        transition: 0.2s;
+        
+    }
+    .cursor ul a:hover{
+    font-size: 20px;
+        color: rgb(121, 121, 121);
+       
+    }
+    .dropdown-menu{
+        position: relative;
+      
+    }
+    
+    .dropdown-menu:hover .dropdown-menu--items{
+        display: block;
+        
+    }
+    
+    
+    .dropdown-menu--items{
+        display: none;
+        /* visibility: hidden; */
+        position: absolute;
+        top: 25px;
+        width: 170px;
+        height: 60px;
+        background-color: antiquewhite;
+        cursor: pointer;
+    }
+    .img{
+        /* background: url(../css/image/Apple_202301262111.webp); */
+    
+    }
